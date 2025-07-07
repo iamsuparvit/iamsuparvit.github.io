@@ -1,0 +1,97 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.container {
+    /*background-color: rgb(223, 223, 223);*/
+    min-height: 100vh;
+    padding: 75px;
+    background-image: linear-gradient(to right, rgb(115, 115, 115), rgba(108, 108, 108, 0.012)), url(/images/gradients-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 50px;
+    }
+}
+
+.avatar {
+    object-fit: cover;
+    width: 175px;
+    height: 175px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    border: 1px solid rgba(135, 135, 135, 0.02);
+    border-radius: 50%;
+    box-shadow: 8px 8px 5px 1px 
+}
+
+.name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 30px;
+    }
+    .job {
+        font-size: 20 px;
+    }
+    .about {
+        font-size: 16px;
+    }
+}
+
+.job {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.about {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(235, 235, 235);
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.button {
+    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+    padding: 5px 13px;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.contact-me {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.contact-list {
+    margin-bottom: 3px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    width: 10px;
+}
+
+.contact-list {
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 500px;
+    color: white;
+}
+
+a {
+    color: rgb(235, 235, 235);
+}
